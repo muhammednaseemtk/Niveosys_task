@@ -5,11 +5,11 @@ import 'package:provider/provider.dart';
 import 'features/auth/controller/auth_controller.dart';
 
 void main() {
-  runApp(const MovieNest());
+  runApp(const MyApp());
 }
 
-class MovieNest extends StatelessWidget {
-  const MovieNest({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-
 import '../../../core/services/session_service.dart';
 import '../../../core/services/storage_service.dart';
 import '../service/auth_service.dart';

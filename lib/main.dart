@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:niveosys/core/routes/app_routes.dart';
+import 'package:niveosys/features/dashboard/view/dashboard_screen.dart';
 import 'package:niveosys/features/splash/view/splash_screen.dart';
 import 'package:provider/provider.dart';
 import 'features/auth/controller/auth_controller.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
 
         onGenerateRoute: AppRoutes.generateRoute,
 
-        home: const SplashScreen(),
+        home: SplashScreen(),
       ),
     );
   }
